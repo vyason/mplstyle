@@ -1,4 +1,4 @@
-#matplotlib style file for plotting in python
+#matplotlib style file for scientific plots
 # Copyright (C) 2022  Ankit Kumar
 # Email: akvyas1995@gmail.com
 #-----------------------------------------------------------------------
@@ -19,14 +19,15 @@
 #
 #-----------------------------------------------------------------------
 
-# Set default figure size
+
+#figure size
 figure.figsize : 3.3, 2.2
 
-# Use LaTeX for math formatting
+#use LaTeX
 text.usetex : True
 text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb} \usepackage[italicdiff]{physics} \usepackage{bm} 
 
-# Use serif fonts
+#font selection
 font.family : serif
 font.serif : Computer Modern
 
@@ -35,7 +36,7 @@ legend.frameon : False
 legend.framealpha : 1
 legend.columnspacing : 1
 
-# Set x axis
+#x axis
 xtick.direction : in
 xtick.major.size : 3
 xtick.major.width : 0.5
@@ -44,7 +45,7 @@ xtick.minor.width : 0.5
 xtick.minor.visible : True
 xtick.top : True
 
-# Set y axis
+#y axis
 ytick.direction : in
 ytick.major.size : 3
 ytick.major.width : 0.5
@@ -53,8 +54,8 @@ ytick.minor.width : 0.5
 ytick.minor.visible : True
 ytick.right : True
 
-# Always save as 'tight'
-savefig.bbox : tight
-
 #grid
 grid.color : whitesmoke
+
+#remove blank margins
+savefig.bbox : tight
