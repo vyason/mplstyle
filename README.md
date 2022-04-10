@@ -1,1 +1,1 @@
-# matplotlib plot style file for beautiful scientific plots
+# matplotlib style file for beautiful scientific plots
