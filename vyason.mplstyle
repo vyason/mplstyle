@@ -1,0 +1,60 @@
+#matplotlib style file for plotting in python
+# Copyright (C) 2022  Ankit Kumar
+# Email: akvyas1995@gmail.com
+#-----------------------------------------------------------------------
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+#-----------------------------------------------------------------------
+
+
+# Set default figure size
+figure.figsize : 3.3, 2.2
+
+# Use LaTeX for math formatting
+text.usetex : True
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb} \usepackage[italicdiff]{physics} \usepackage{bm} 
+
+# Use serif fonts
+font.family : serif
+font.serif : Computer Modern
+
+#legend
+legend.frameon : False
+legend.framealpha : 1
+legend.columnspacing : 1
+
+# Set x axis
+xtick.direction : in
+xtick.major.size : 3
+xtick.major.width : 0.5
+xtick.minor.size : 1.5
+xtick.minor.width : 0.5
+xtick.minor.visible : True
+xtick.top : True
+
+# Set y axis
+ytick.direction : in
+ytick.major.size : 3
+ytick.major.width : 0.5
+ytick.minor.size : 1.5
+ytick.minor.width : 0.5
+ytick.minor.visible : True
+ytick.right : True
+
+# Always save as 'tight'
+savefig.bbox : tight
+
+#grid
+grid.color : whitesmoke
