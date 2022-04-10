@@ -17,4 +17,4 @@ plt.ylabel(r'y')
 plt.grid()
 plt.legend()
 
-plt.savefig('example_plot.pdf')
+plt.savefig('example_plot.png')
