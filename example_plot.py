@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 plt.style.use('vyason')
 
-fig = plt.figure(constrained_layout=True,dpi=150)
+fig = plt.figure(constrained_layout=True)
 
 table1 = np.genfromtxt('table1.d')
 plt.plot(table1[:,0],table1[:,1],c='black',ls='-',label='Table 1')
