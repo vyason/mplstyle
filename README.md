@@ -3,7 +3,10 @@
 
 * pre-requisites: latex
 
-* to install: **bash install.sh**
+* to install on Linux: **./install_linux.sh**
+
+* to install on MacOS: **./install_mac.sh**
+
 
 <hr />
 
@@ -12,15 +15,15 @@
 
 <hr />
 
-* generate an example plot woth 2 columns: **python example_plot_1x2.py**
+* generate an example plot with 2 columns: **python example_plot_1x2.py**
 <img src="examples/example_plot_1x2.png" width="1200">
 
 <hr />
 
-* generate an example plot woth 2 rows: **python example_plot_2x1.py**
+* generate an example plot with 2 rows: **python example_plot_2x1.py**
 <img src="examples/example_plot_2x1.png" width="450">
 
 <hr />
 
-* generate an example plot woth 2 rows and 2 columns: **python example_plot_2x2.py**
+* generate an example plot with 2 rows and 2 columns: **python example_plot_2x2.py**
 <img src="examples/example_plot_2x2.png" width="1200">
