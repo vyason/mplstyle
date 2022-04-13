@@ -5,12 +5,22 @@
 
 * to install: **bash install.sh**
 
+<hr />
 
-* generate an example plot: **python example_plot.py**
-<img src="example_plot.png" width="500">
+* generate an example plot: **python example_plot_1x1.py**
+<img src="examples/example_plot_1x1.png" width="450">
 
-* generate an example plot woth 2 columns: **python example_plot_2cols.py**
-<img src="example_plot_2cols.png" width="1200">
+<hr />
 
-* generate an example plot woth 2 rows: **python example_plot_2rows.py**
-<img src="example_plot_2rows.png" width="500">
+* generate an example plot woth 2 columns: **python example_plot_1x2.py**
+<img src="examples/example_plot_1x2.png" width="1200">
+
+<hr />
+
+* generate an example plot woth 2 rows: **python example_plot_2x1.py**
+<img src="examples/example_plot_2x1.png" width="450">
+
+<hr />
+
+* generate an example plot woth 2 rows and 2 columns: **python example_plot_2x2.py**
+<img src="examples/example_plot_2x2.png" width="1200">
