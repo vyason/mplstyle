@@ -21,7 +21,7 @@
 
 
 #figure size
-figure.figsize : 3.3, 2.2
+figure.figsize : 3.375, 2.2275
 
 #use LaTeX
 text.usetex : True

@@ -1,9 +1,16 @@
 # matplotlib style file for beautiful scientific plots
 
 
-* copy vyason.mplstyle into **~/.config/matplotlib/stylelib**
+* pre-requisites: latex
 
-* latex should be installed on the target system
+* to install: **bash install.sh**
 
-* generate example plot: **python example_plot.py**
-![](example_plot.png)
+
+* generate an example plot: **python example_plot.py**
+<img src="example_plot.png" width="600">
+
+* generate an example plot woth 2 columns: **python example_plot_2cols.py**
+<img src="example_plot_2cols.png" width="1200">
+
+* generate an example plot woth 2 rows: **python example_plot_2rows.py**
+<img src="example_plot_2rows.png" width="600">
