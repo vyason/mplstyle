@@ -3,9 +3,9 @@
 
 * pre-requisites: latex
 
-* to install on Linux: **bash install_linux.sh**
+* to install on Linux: **sh install_linux.sh**
 
-* to install on MacOS: **zsh install_mac.sh**
+* to install on MacOS: **sh install_mac.sh**
 
 
 <hr />
