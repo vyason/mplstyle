@@ -1,6 +1,3 @@
-# matplotlib style file for scientific plotting
-
-
 * pre-requisites: LaTeX
 
 * to install on Linux: **sh install_linux.sh**
