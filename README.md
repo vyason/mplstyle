@@ -1,4 +1,4 @@
-# matplotlib style file for scientific plots
+# matplotlib style file for scientific plotting
 
 
 * pre-requisites: LaTeX
