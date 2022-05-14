@@ -5,9 +5,8 @@ import matplotlib.pyplot as plt
 plt.style.use('vyason')
 [def_width,def_height] = np.array(plt.rcParams["figure.figsize"])
 
-fig = plt.figure(constrained_layout=True)
+fig,ax = plt.subplots(2,2,constrained_layout=True)
 fig.set_size_inches(2*def_width,2*def_height)
-ax = fig.add_gridspec(2,2,hspace=0.1,wspace=0.05).subplots()
 
 xmin,xmax=0,2*pi
 x = np.linspace(xmin,xmax,100,endpoint=True)
