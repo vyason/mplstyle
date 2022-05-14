@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 plt.style.use('vyason')
 
-fig,ax = plt.subplots(1,2,constrained_layout=True)
+fig,ax = plt.subplots(1,1,constrained_layout=True)
 
 xmin,xmax=0,2*pi
 x = np.linspace(xmin,xmax,100,endpoint=True)
