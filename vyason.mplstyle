@@ -59,4 +59,5 @@ grid.color : whitesmoke
 
 #remove blank margins
 savefig.bbox : tight
+savefig.pad_inches : 0
 savefig.dpi : 300
